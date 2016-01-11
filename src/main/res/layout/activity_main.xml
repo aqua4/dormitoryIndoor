@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.aikosh.seproject.MainActivity">
+
+    <include layout="@layout/content_main"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:text="clear"
+        android:layout_marginBottom="13dp"
+        android:layout_marginLeft="13dp"
+        android:id="@+id/clear"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:background="@null"
+        android:src="@drawable/f1up"
+        android:layout_marginBottom="76dp"
+        android:layout_marginRight="13dp"
+        android:id="@+id/firstfloor"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:background="@null"
+        android:src="@drawable/f2up"
+        android:layout_marginBottom="13dp"
+        android:layout_marginRight="13dp"
+        android:id="@+id/secondfloor"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:background="@null"
+        android:src="@drawable/savebuttonup"
+        android:layout_marginBottom="25dp"
+        android:layout_marginRight="76dp"
+        android:id="@+id/saveButton"
+        />
+
+</android.support.design.widget.CoordinatorLayout>
